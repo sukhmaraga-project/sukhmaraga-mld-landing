@@ -37,6 +37,19 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+/* Scale text up on larger screens; phones keep the 16px base. */
+@media (min-width: 48rem) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 64rem) {
+  html {
+    font-size: 18px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

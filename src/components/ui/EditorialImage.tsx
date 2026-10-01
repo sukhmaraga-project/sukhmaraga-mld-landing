@@ -62,7 +62,7 @@ export function EditorialImage({ src, alt, brief, sizes, priority, tone = "sand"
       />
       <div className={`absolute inset-x-0 ${captionClassName} flex items-start justify-between gap-4 p-5 sm:p-6`}>
         <p
-          className={`max-w-[18rem] text-[11px] leading-relaxed tracking-wide ${
+          className={`max-w-[18rem] text-[0.6875rem] leading-relaxed tracking-wide ${
             navy ? "text-white/55" : "text-navy-900/50"
           }`}
         >

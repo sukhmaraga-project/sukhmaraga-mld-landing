@@ -25,7 +25,7 @@ function Author({ item, light = false }: { item: Item; light?: boolean }) {
       ) : (
         <span
           aria-hidden
-          className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full border font-display text-[14px] font-semibold tracking-wide ${
+          className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full border font-display text-[0.875rem] font-semibold tracking-wide ${
             light ? "border-gold-400/40 text-gold-400" : "border-gold-200 bg-sand-50 text-gold-600"
           }`}
         >
@@ -33,10 +33,10 @@ function Author({ item, light = false }: { item: Item; light?: boolean }) {
         </span>
       )}
       <span>
-        <span className={`block font-display text-[15px] font-semibold ${light ? "text-white" : "text-navy-900"}`}>
+        <span className={`block font-display text-[0.9375rem] font-semibold ${light ? "text-white" : "text-navy-900"}`}>
           <T>{item.name}</T>
         </span>
-        <span className={`block text-[13px] ${light ? "text-white/60" : "text-stone-500"}`}>
+        <span className={`block text-[0.8125rem] ${light ? "text-white/60" : "text-stone-500"}`}>
           <T>{item.role}</T>
         </span>
       </span>
@@ -77,7 +77,7 @@ export function Testimonials() {
             {rest.map((item, i) => (
               <Reveal key={i} delay={0.08 * (i + 1)}>
                 <figure className="flex h-full flex-col justify-between gap-8 border border-stone-200 p-8">
-                  <blockquote className="text-[17px] leading-relaxed text-navy-900">
+                  <blockquote className="text-[1.0625rem] leading-relaxed text-navy-900">
                     <T>{item.quote}</T>
                   </blockquote>
                   <Author item={item} />

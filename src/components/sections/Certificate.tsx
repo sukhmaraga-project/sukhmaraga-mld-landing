@@ -78,7 +78,7 @@ export function Certificate() {
             >
               {certificate.title}
             </h2>
-            <p className="mt-7 text-[17px] leading-[1.8] text-stone-600">{certificate.body}</p>
+            <p className="mt-7 text-[1.0625rem] leading-[1.8] text-stone-600">{certificate.body}</p>
           </Reveal>
           <ol className="mt-10 space-y-4">
             {certificate.steps.map((s, i) => (
@@ -86,11 +86,11 @@ export function Certificate() {
                 <span className="flex h-9 w-9 shrink-0 items-center justify-center border border-gold-500/60 font-display text-xs font-semibold tabular-nums text-gold-600">
                   {i + 1}
                 </span>
-                <span className="text-[15px] font-medium text-navy-900">{s}</span>
+                <span className="text-[0.9375rem] font-medium text-navy-900">{s}</span>
               </Reveal>
             ))}
           </ol>
-          <p className="mt-10 border-l-2 border-stone-300 pl-5 text-[13px] leading-relaxed text-stone-500">
+          <p className="mt-10 border-l-2 border-stone-300 pl-5 text-[0.8125rem] leading-relaxed text-stone-500">
             <T>{certificate.note}</T>
           </p>
         </div>

@@ -20,7 +20,7 @@ export function FinalCTA() {
           >
             {finalCta.title}
           </h2>
-          <p className="mx-auto mt-7 max-w-2xl text-[17px] leading-[1.8] text-white/70">{finalCta.body}</p>
+          <p className="mx-auto mt-7 max-w-2xl text-[1.0625rem] leading-[1.8] text-white/70">{finalCta.body}</p>
           <div className="mt-11 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center">
             <EnrollButton variant="gold" className="w-full sm:w-auto" />
             <ButtonLink href="#kurikulum" variant="ghost-light" className="w-full sm:w-auto">

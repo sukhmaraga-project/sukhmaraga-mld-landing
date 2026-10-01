@@ -37,7 +37,7 @@ export function PracticalLearning() {
             delay={0.1}
             className="col-span-4 md:col-span-5 md:col-start-8 lg:col-span-4 lg:col-start-9"
           >
-            <p className="text-[16px] leading-[1.8] text-white/70">
+            <p className="text-[1rem] leading-[1.8] text-white/70">
               {practical.body}
             </p>
           </Reveal>
@@ -65,14 +65,14 @@ export function PracticalLearning() {
         <Reveal
           className={`${hasMedia ? "mt-10" : "mt-14 lg:mt-20"} flex flex-col gap-4 border-b border-white/10 pb-10 md:flex-row md:items-center md:gap-8`}
         >
-          <p className="shrink-0 text-[11px] font-semibold uppercase tracking-[0.24em] text-gold-400">
+          <p className="shrink-0 text-[0.6875rem] font-semibold uppercase tracking-[0.24em] text-gold-400">
             Area yang dipraktikkan
           </p>
           <ul className="flex flex-wrap gap-2">
             {practiceAreas.map((area) => (
               <li
                 key={area}
-                className="border border-white/15 px-3.5 py-1.5 text-[13px] text-white/80"
+                className="border border-white/15 px-3.5 py-1.5 text-[0.8125rem] text-white/80"
               >
                 {area}
               </li>
@@ -91,7 +91,7 @@ export function PracticalLearning() {
                 <h3 className="mt-6 font-display text-lg font-semibold">
                   {item.title}
                 </h3>
-                <p className="mt-3 text-[15px] leading-relaxed text-white/65">
+                <p className="mt-3 text-[0.9375rem] leading-relaxed text-white/65">
                   {item.text}
                 </p>
               </Reveal>

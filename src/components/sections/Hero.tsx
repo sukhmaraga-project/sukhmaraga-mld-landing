@@ -30,7 +30,7 @@ export function Hero() {
       <div className="container-x relative">
         <div className="grid-12 items-center gap-y-12 pb-16 md:pb-20 lg:pb-28">
           <div className="col-span-4 md:col-span-12 lg:col-span-7 lg:pr-10">
-            <m.p {...fade(0.05)} className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-gold-600">
+            <m.p {...fade(0.05)} className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[0.6875rem] font-semibold uppercase tracking-[0.24em] text-gold-600">
               <span aria-hidden className="h-px w-8 bg-gold-500" />
               <span className="hidden sm:inline">{site.academy}</span>
               <span aria-hidden className="hidden text-stone-300 sm:inline">/</span>
@@ -47,7 +47,7 @@ export function Hero() {
               {after}
             </m.h1>
 
-            <m.p {...fade(0.28)} className="mt-7 max-w-xl text-[17px] leading-[1.75] text-stone-600 md:text-lg">
+            <m.p {...fade(0.28)} className="mt-7 max-w-xl text-[1.0625rem] leading-[1.75] text-stone-600 md:text-lg">
               {hero.lead}
             </m.p>
 
@@ -61,7 +61,7 @@ export function Hero() {
             <m.ul
               {...fade(0.52)}
               aria-label="Keunggulan program"
-              className="mt-9 flex flex-col gap-3 border-t border-stone-200 pt-7 text-[13px] text-navy-900/70 sm:flex-row sm:flex-wrap sm:gap-x-7"
+              className="mt-9 flex flex-col gap-3 border-t border-stone-200 pt-7 text-[0.8125rem] text-navy-900/70 sm:flex-row sm:flex-wrap sm:gap-x-7"
             >
               {hero.indicators.map((item) => (
                 <li key={item} className="flex items-center gap-2.5">
@@ -100,7 +100,7 @@ export function Hero() {
               transition={{ duration: 0.9, ease: EASE, delay: 0.8 }}
               className="relative -mt-16 ml-4 mr-10 bg-navy-900 p-6 text-white shadow-[0_30px_60px_-30px_rgb(14_27_46/0.6)] sm:mr-auto sm:max-w-sm lg:absolute lg:-bottom-10 lg:-left-12 lg:m-0"
             >
-              <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-gold-400">Alur pembelajaran</p>
+              <p className="text-[0.625rem] font-semibold uppercase tracking-[0.24em] text-gold-400">Alur pembelajaran</p>
               <ol className="mt-4 space-y-2.5 text-sm text-white/85">
                 {["Teori: sistem & organ limfatik", "Kontraindikasi, rangkaian & SOP", "Praktik 6 area tubuh"].map((s, i) => (
                   <li key={s} className="flex items-center gap-3">

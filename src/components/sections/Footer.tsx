@@ -27,7 +27,7 @@ export function Footer() {
       <div className="container-x grid-12 gap-y-12 py-16 md:py-20">
         <div className="col-span-4 md:col-span-6 lg:col-span-5">
           <Logo light />
-          <p className="mt-6 max-w-sm text-[14px] leading-relaxed">
+          <p className="mt-6 max-w-sm text-[0.875rem] leading-relaxed">
             {site.tagline}. Bagian dari {site.parentBrand}.
           </p>
           <ul className="mt-8 flex gap-3" aria-label="Media sosial">
@@ -47,8 +47,8 @@ export function Footer() {
         </div>
 
         <nav aria-label="Navigasi footer" className="col-span-2 md:col-span-3 lg:col-span-2 lg:col-start-7">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-gold-400">Navigasi</p>
-          <ul className="mt-5 space-y-3 text-[14px]">
+          <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.24em] text-gold-400">Navigasi</p>
+          <ul className="mt-5 space-y-3 text-[0.875rem]">
             {footerNav.map((item) => (
               <li key={item.href}>
                 <a href={item.href} className="transition-colors hover:text-white">
@@ -60,8 +60,8 @@ export function Footer() {
         </nav>
 
         <div id="kontak" className="col-span-4 md:col-span-3 lg:col-span-4">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-gold-400">Kontak</p>
-          <ul className="mt-5 space-y-3 text-[14px]">
+          <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.24em] text-gold-400">Kontak</p>
+          <ul className="mt-5 space-y-3 text-[0.875rem]">
             <li className="flex items-center gap-3">
               <Icon name="chat" className="h-4 w-4 shrink-0 text-gold-400" />
               {whatsapp ? (
@@ -93,7 +93,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="container-x flex flex-col gap-2 py-6 text-[12px] text-white/45 sm:flex-row sm:justify-between">
+        <div className="container-x flex flex-col gap-2 py-6 text-[0.75rem] text-white/45 sm:flex-row sm:justify-between">
           <p>
             © {year} {site.academyUpper}. Seluruh hak cipta dilindungi.
           </p>

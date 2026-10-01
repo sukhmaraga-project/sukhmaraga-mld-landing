@@ -34,7 +34,7 @@ export function Benefits() {
                   </span>
                   <span className="flex flex-1 flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8">
                     <span className="font-display text-lg font-semibold text-navy-900">{item.title}</span>
-                    <span className="text-[14px] leading-relaxed text-stone-600 sm:max-w-[16rem] sm:text-right">
+                    <span className="text-[0.875rem] leading-relaxed text-stone-600 sm:max-w-[16rem] sm:text-right">
                       <T>{item.text}</T>
                     </span>
                   </span>
@@ -42,7 +42,7 @@ export function Benefits() {
               </li>
             ))}
           </ul>
-          {benefits.footnote && <p className="mt-6 text-[13px] text-stone-500">{benefits.footnote}</p>}
+          {benefits.footnote && <p className="mt-6 text-[0.8125rem] text-stone-500">{benefits.footnote}</p>}
           <div className="mt-10 lg:hidden">
             <EnrollButton className="w-full sm:w-auto" />
           </div>

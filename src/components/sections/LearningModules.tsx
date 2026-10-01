@@ -17,7 +17,7 @@ export function LearningModules() {
             </h2>
           </Reveal>
           <Reveal delay={0.1} className="col-span-4 md:col-span-5 md:col-start-8 lg:col-span-4 lg:col-start-9">
-            <p className="text-[16px] leading-[1.8] text-stone-600">
+            <p className="text-[1rem] leading-[1.8] text-stone-600">
               Setiap topik dibangun di atas topik sebelumnya, sehingga pemahaman Anda terbentuk secara bertahap dan
               menyeluruh.
             </p>
@@ -32,8 +32,8 @@ export function LearningModules() {
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <span aria-hidden className="mt-8 h-px w-8 bg-navy-900/20 transition-all duration-500 group-hover:w-14 group-hover:bg-gold-500" />
-                <h3 className="mt-6 font-display text-[17px] font-semibold leading-snug text-navy-900">{mod.title}</h3>
-                <p className="mt-3 text-[14px] leading-relaxed text-stone-600">{mod.text}</p>
+                <h3 className="mt-6 font-display text-[1.0625rem] font-semibold leading-snug text-navy-900">{mod.title}</h3>
+                <p className="mt-3 text-[0.875rem] leading-relaxed text-stone-600">{mod.text}</p>
               </Reveal>
             </li>
           ))}

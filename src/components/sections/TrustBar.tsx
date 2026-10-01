@@ -14,7 +14,7 @@ export function TrustBar() {
               } ${i > 0 ? "lg:border-l lg:border-stone-200" : ""}`}
             >
               <Icon name={item.icon} className="h-6 w-6 shrink-0 text-gold-500" />
-              <span className="text-[13px] font-semibold tracking-wide text-navy-900 md:text-sm">{item.label}</span>
+              <span className="text-[0.8125rem] font-semibold tracking-wide text-navy-900 md:text-sm">{item.label}</span>
             </li>
           ))}
         </ul>

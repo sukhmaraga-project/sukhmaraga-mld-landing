@@ -25,7 +25,7 @@ export function AudienceSection() {
                 </span>
                 <span>
                   <h3 className="font-display text-lg font-semibold text-navy-900">{item.title}</h3>
-                  <p className="mt-2 text-[15px] leading-relaxed text-stone-600">{item.text}</p>
+                  <p className="mt-2 text-[0.9375rem] leading-relaxed text-stone-600">{item.text}</p>
                 </span>
               </Reveal>
             </li>
@@ -33,7 +33,7 @@ export function AudienceSection() {
         </ul>
 
         <Reveal>
-          <p className="mx-auto mt-12 max-w-2xl text-center text-[13px] leading-relaxed text-stone-500">
+          <p className="mx-auto mt-12 max-w-2xl text-center text-[0.8125rem] leading-relaxed text-stone-500">
             {audience.disclaimer}
           </p>
         </Reveal>

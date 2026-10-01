@@ -1,7 +1,7 @@
 export function Eyebrow({ children, light = false, className = "" }: { children: React.ReactNode; light?: boolean; className?: string }) {
   return (
     <p
-      className={`flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.24em] ${
+      className={`flex items-center gap-3 text-[0.6875rem] font-semibold uppercase tracking-[0.24em] ${
         light ? "text-gold-400" : "text-gold-600"
       } ${className}`}
     >

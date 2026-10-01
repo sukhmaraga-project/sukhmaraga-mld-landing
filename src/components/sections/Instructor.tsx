@@ -16,7 +16,7 @@ export function Instructor() {
               className="aspect-[4/5] w-full"
             />
             <div className="absolute bottom-0 left-0 bg-navy-900 px-6 py-4 text-white">
-              <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-gold-400">Instruktur</p>
+              <p className="text-[0.625rem] font-semibold uppercase tracking-[0.24em] text-gold-400">Instruktur</p>
               <p className="mt-1 font-display text-sm font-semibold">
                 <T>{instructor.name}</T>
               </p>
@@ -36,7 +36,7 @@ export function Instructor() {
             <p className="mt-3 text-sm font-semibold uppercase tracking-[0.14em] text-gold-600">
               <T>{instructor.role}</T>
             </p>
-            <p className="mt-7 text-[17px] leading-[1.8] text-stone-600">
+            <p className="mt-7 text-[1.0625rem] leading-[1.8] text-stone-600">
               <T>{instructor.bio}</T>
             </p>
           </Reveal>
@@ -49,8 +49,8 @@ export function Instructor() {
                 y={12}
                 className="grid gap-1 border-b border-stone-300 py-5 sm:grid-cols-[13rem_1fr] sm:gap-6"
               >
-                <dt className="text-[11px] font-semibold uppercase tracking-[0.2em] text-navy-900/50 sm:pt-1">{d.label}</dt>
-                <dd className="whitespace-pre-line text-[15px] leading-relaxed text-navy-900">
+                <dt className="text-[0.6875rem] font-semibold uppercase tracking-[0.2em] text-navy-900/50 sm:pt-1">{d.label}</dt>
+                <dd className="whitespace-pre-line text-[0.9375rem] leading-relaxed text-navy-900">
                   <T>{d.value}</T>
                 </dd>
               </Reveal>

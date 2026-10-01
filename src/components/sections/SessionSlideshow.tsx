@@ -104,8 +104,8 @@ export function SessionSlideshow() {
         </div>
 
         <div className="mt-4 flex items-baseline justify-between gap-4 lg:hidden" aria-live="polite">
-          <p className="text-[15px] text-white/85">
-            <span data-slide-label className="mr-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-gold-400">
+          <p className="text-[0.9375rem] text-white/85">
+            <span data-slide-label className="mr-2 text-[0.6875rem] font-semibold uppercase tracking-[0.2em] text-gold-400">
               {active.kind} · Sesi {active.no}
             </span>
             <span data-slide-title>{active.title}</span>
@@ -125,7 +125,7 @@ export function SessionSlideshow() {
 
       <div className="relative hidden lg:col-span-4 lg:block">
         <div className="absolute inset-0 flex flex-col border border-white/10">
-          <p className="border-b border-white/10 px-6 py-4 text-[11px] font-semibold uppercase tracking-[0.24em] text-gold-400">
+          <p className="border-b border-white/10 px-6 py-4 text-[0.6875rem] font-semibold uppercase tracking-[0.24em] text-gold-400">
             {total} sesi video
           </p>
           <ol ref={listRef} className="relative min-h-0 flex-1 overflow-y-auto [scrollbar-color:rgb(255_255_255/0.2)_transparent] [scrollbar-width:thin]">
@@ -140,10 +140,10 @@ export function SessionSlideshow() {
                     i === index ? "border-gold-400 bg-white/[0.06]" : "border-transparent hover:bg-white/[0.03]"
                   }`}
                 >
-                  <span className="w-[5.5rem] shrink-0 whitespace-nowrap text-[10px] font-semibold uppercase tracking-[0.18em] text-gold-400/80">
+                  <span className="w-[5.5rem] shrink-0 whitespace-nowrap text-[0.625rem] font-semibold uppercase tracking-[0.18em] text-gold-400/80">
                     {s.kind} {s.no}
                   </span>
-                  <span className={`text-[14px] leading-snug ${i === index ? "text-white" : "text-white/60 group-hover:text-white/85"}`}>
+                  <span className={`text-[0.875rem] leading-snug ${i === index ? "text-white" : "text-white/60 group-hover:text-white/85"}`}>
                     {s.title}
                   </span>
                 </button>

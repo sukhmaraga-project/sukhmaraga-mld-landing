@@ -4,7 +4,7 @@ import { Icon } from "./Icon";
 type Variant = "primary" | "secondary" | "gold" | "ghost-light";
 
 const base =
-  "group relative inline-flex items-center justify-center gap-3 whitespace-nowrap rounded-[2px] px-7 py-4 text-[13px] font-semibold uppercase tracking-[0.14em] transition-all duration-300 ease-[var(--ease-premium)] active:scale-[0.98]";
+  "group relative inline-flex items-center justify-center gap-3 whitespace-nowrap rounded-[2px] px-7 py-4 text-[0.8125rem] font-semibold uppercase tracking-[0.14em] transition-all duration-300 ease-[var(--ease-premium)] active:scale-[0.98]";
 
 const variants: Record<Variant, string> = {
   primary: "bg-navy-900 text-white hover:bg-navy-800 shadow-[0_10px_30px_-12px_rgb(14_27_46/0.55)]",

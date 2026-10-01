@@ -27,7 +27,7 @@ export function CourseIntroduction() {
             >
               {intro.title}
             </h2>
-            <p className="mt-7 text-[17px] leading-[1.8] text-stone-600">{intro.body}</p>
+            <p className="mt-7 text-[1.0625rem] leading-[1.8] text-stone-600">{intro.body}</p>
           </Reveal>
 
           <dl className="mt-12 grid gap-x-10 gap-y-9 sm:grid-cols-2">
@@ -37,7 +37,7 @@ export function CourseIntroduction() {
                   <span aria-hidden className="h-1.5 w-1.5 rotate-45 bg-gold-500" />
                   {pt.title}
                 </dt>
-                <dd className="mt-2.5 pl-[18px] text-[15px] leading-relaxed text-stone-600">{pt.text}</dd>
+                <dd className="mt-2.5 pl-[18px] text-[0.9375rem] leading-relaxed text-stone-600">{pt.text}</dd>
               </Reveal>
             ))}
           </dl>

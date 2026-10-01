@@ -44,7 +44,7 @@ export function Navbar() {
               <li key={item.href}>
                 <a
                   href={item.href}
-                  className="relative text-[13px] font-medium tracking-wide text-navy-900/75 transition-colors hover:text-navy-900 after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-0 after:bg-gold-500 after:transition-all after:duration-300 hover:after:w-full"
+                  className="relative text-[0.8125rem] font-medium tracking-wide text-navy-900/75 transition-colors hover:text-navy-900 after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-0 after:bg-gold-500 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {item.label}
                 </a>

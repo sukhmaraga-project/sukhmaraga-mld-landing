@@ -15,7 +15,7 @@ export function ProblemSection() {
             >
               {problem.title}
             </h2>
-            <div className="mt-7 space-y-5 text-[16px] leading-[1.8] text-stone-600">
+            <div className="mt-7 space-y-5 text-[1rem] leading-[1.8] text-stone-600">
               {problem.body.map((p) => (
                 <p key={p}>{p}</p>
               ))}
@@ -28,7 +28,7 @@ export function ProblemSection() {
 
         <div className="col-span-4 md:col-span-12 lg:col-span-6 lg:col-start-7">
           <Reveal delay={0.1}>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-navy-900/50">
+            <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.24em] text-navy-900/50">
               Yang perlu dipahami seorang terapis
             </p>
           </Reveal>
@@ -43,7 +43,7 @@ export function ProblemSection() {
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <h3 className="mt-3 font-display text-lg font-semibold text-navy-900">{a.title}</h3>
-                  <p className="mt-2 text-[15px] leading-relaxed text-stone-600">{a.text}</p>
+                  <p className="mt-2 text-[0.9375rem] leading-relaxed text-stone-600">{a.text}</p>
                 </Reveal>
               </li>
             ))}

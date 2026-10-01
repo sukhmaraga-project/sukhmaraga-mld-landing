@@ -11,11 +11,11 @@ export function Logo({ light = false }: { light?: boolean }) {
       <LogoMark className="h-10 w-10 md:h-11 md:w-11" />
       <span className="flex flex-col leading-none">
         <span
-          className={`font-display text-[13px] font-bold tracking-[0.2em] ${light ? "text-white" : "text-navy-900"}`}
+          className={`font-display text-[0.8125rem] font-bold tracking-[0.2em] ${light ? "text-white" : "text-navy-900"}`}
         >
           SUKHMARAGA
         </span>
-        <span className={`mt-1 text-[9px] font-medium tracking-[0.42em] ${light ? "text-gold-400" : "text-gold-600"}`}>
+        <span className={`mt-1 text-[0.5625rem] font-medium tracking-[0.42em] ${light ? "text-gold-400" : "text-gold-600"}`}>
           ACADEMY
         </span>
       </span>

@@ -9,10 +9,10 @@ export function FAQ() {
   const items = faq.map((item, i) => ({
     key: String(i),
     header: (
-      <span className="block font-display text-[17px] font-semibold leading-snug text-navy-900 md:text-lg">{item.q}</span>
+      <span className="block font-display text-[1.0625rem] font-semibold leading-snug text-navy-900 md:text-lg">{item.q}</span>
     ),
     content: (
-      <p className="max-w-2xl pb-7 pr-12 text-[15px] leading-[1.8] text-stone-600">
+      <p className="max-w-2xl pb-7 pr-12 text-[0.9375rem] leading-[1.8] text-stone-600">
         <T>{item.a}</T>
       </p>
     ),
@@ -31,7 +31,7 @@ export function FAQ() {
           >
             Pertanyaan yang sering diajukan
           </h2>
-          <p className="mt-6 text-[15px] leading-[1.8] text-stone-600">
+          <p className="mt-6 text-[0.9375rem] leading-[1.8] text-stone-600">
             Masih ada pertanyaan? Hubungi tim kami melalui{" "}
             {whatsapp ? (
               <a href={whatsapp} rel="noopener" className="font-semibold text-navy-900 underline decoration-gold-500 underline-offset-4">

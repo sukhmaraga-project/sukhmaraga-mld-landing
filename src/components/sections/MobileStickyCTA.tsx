@@ -47,11 +47,11 @@ export function MobileStickyCTA() {
         >
           <div className="container-x flex items-center justify-between gap-4 py-3">
             <div className="min-w-0">
-              <p className="truncate text-[11px] font-medium uppercase tracking-[0.14em] text-stone-500">E-Course MLD</p>
+              <p className="truncate text-[0.6875rem] font-medium uppercase tracking-[0.14em] text-stone-500">E-Course MLD</p>
               <p className="flex items-baseline gap-2 whitespace-nowrap">
                 <span className="font-display text-base font-semibold text-navy-900 min-[400px]:text-lg">{site.price}</span>
                 {site.originalPrice && (
-                  <span className="text-[11px] text-stone-500 line-through">
+                  <span className="text-[0.6875rem] text-stone-500 line-through">
                     <span className="sr-only">Harga normal </span>
                     {site.originalPrice}
                   </span>
